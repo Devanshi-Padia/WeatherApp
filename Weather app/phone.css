@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    /* Adjust styling for smaller screens */
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .search {
+        align-items: center;
+        justify-content:space-between
+    }
+
+    .search input {
+        width: 40%;
+        /* margin-right: ; */
+        margin-bottom: 10px;
+    }
+
+    .search button {
+        width: 20%;
+        height: 60px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .col {
+        margin-bottom: 10px;
+    }
+
+    .col img {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .humidity, .wind {
+        float: left;
+        font-size: 20px;
+    }
+}
